@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(240,255,255,.4);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+nav{
+    padding: 2vw;
+    margin: 0;
+    width: 38vw;
+    float: right;
+}
+nav ul{
+    display: flex;
+   float: right;
+   margin-top: -1vw;
+    
+}
+nav li{
+    
+}
+nav li a{
+    background-color: bisque;
+    padding: .8vw;
+    border-radius: 1vw;
+    border: .1vw solid red;
+    font-size: 1vw;
+    
+}
+nav li a:hover{
+    text-shadow:.2vw .2vw .3vw rgb(6, 6, 6) ;
+}
+.box{
+    width: 15vw;
+    height: auto;
+    border: 0.4vw rgb(97, 81, 81) solid;
+    text-align: left;
+    box-shadow: .3vw .3vw .2vw red;
+    background-color: bisque ;
+}
+li{
+   padding: 0.6vw;
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 550;
+    color: rgb(30, 29, 28);
+}
+a:hover{
+    color: red;
+}
+h2{
+    display: inline-block;
+    width: 11vw;
+    margin-left: 4vw;
+    margin-top: -5vw;
+    vertical-align: top;
+    font-size: 2vw;
+    
+}
+h3{
+    color: rgb(194, 203, 194);
+}
+.logo{
+    width: 5.5vw;
+}
+section h3{
+    width: 13vw;
+    border: .2vw red solid;
+    margin-left: 0.7vw;
+    margin: auto;
+    padding-left: .7vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0.642);
+    border-radius: 1vw;
+    box-shadow: 3px 3px 2px rgb(85, 76, 76);
+}
